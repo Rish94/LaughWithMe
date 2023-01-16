@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(34, 0, 0);
+    border: 5px solid wheat;
+    margin: 0;
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px blue;
+}
+
+#wholedisplay{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 200px;
+   font-weight: bold;
+}
+
+#jokesarea{
+    width: 500px;
+    height: 180px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px greenyellow;
+}
+
+button{
+    border: 2px solid gray;
+    font-weight: bold;
+}
+button:hover{
+    border: 2px solid red;
+}
+
+p{
+    color: rgb(43, 2, 2);
+    text-align: center;
+    padding-top: 80px;
+}
